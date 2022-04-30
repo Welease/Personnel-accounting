@@ -1,0 +1,174 @@
+body {
+	background: #0094ff;
+	font-family: 'Inter', sans-serif;
+	font-size: 100%;
+}
+h1, h2, h3, h4 {
+	font-family: 'Ubuntu', sans-serif;
+}
+header, main, footer {
+	min-width: 855px;
+}
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+	align-content: center;
+}
+header {
+	padding-top: 30px;
+	background: white;
+	overflow: auto;
+}
+header h1 {
+	margin-left: 150px;
+	margin-top: 50px;
+	width: 570px;
+	font-size: 300%;
+	font-style: italic;
+}
+header nav {
+	float: right;
+	width: 285px;
+}
+
+.content {
+	padding-bottom: 300px;
+}
+
+main {
+	background: white;
+	overflow: auto;
+	padding-bottom: 90px;
+}
+main .container h2 {
+	font-size: 150%;
+}
+main .container h3 {
+	font-size: 130%;
+}
+main .container .main-text {
+	float: right;
+	width: 570px;
+}
+
+main .container .authorization {
+	margin-top: 100px;
+	align-content: center;
+	float:right;
+	width: 570px;
+}
+
+main .container .tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+main .container .tabs a span .active {
+	background: #eee;
+}
+main .container .tasks {
+	float: left;
+	width: 570px;
+}
+main .container .question {
+	float: left;
+	width: 570px;
+	font-style: italic;
+	font-size: large;
+	font-weight: bold;
+}
+main .container .answer {
+	float: left;
+	width: 570px;
+	font-style: normal;
+	font-size: unset;
+	font-weight: normal;
+}
+
+.footer {
+	margin-top: 1450px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+footer .container {
+	width: 400px;
+
+}
+
+footer .container h5 {
+	font-size: 120%;
+}
+footer .container .contact {
+	vertical-align: central;
+	margin-left: 80px;
+	margin-top: 50px;
+	width: 570px;
+}
+footer .container .sitemap {
+	float: right;
+	width: 285px;
+}
+footer .container .sitemap ul {
+	columns: 2;
+	list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.input-task {
+	border-radius: 15px;
+	height: 5%;
+	width: 35%;
+	margin: 1%;
+}
+
+.input-tag {
+	border-radius: 15px;
+	height: 5%;
+	width: 35%;
+	margin: 1%;
+}
+
+.add-task-btn {
+	background-color: lightgreen;
+	border-radius: 15px;
+	color: black;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.input-name {
+	border-radius: 10px;
+	height: 5%;
+	width: 35%;
+	margin: 1%;
+	align-content: center;
+}
+
+.authorization-btn {
+	margin-left: 30px;
+	background-color: blue;
+	border-radius: 10px;
+	color: black;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	align-content: center;
+}
