@@ -1,3 +1,5 @@
+const DepartmentController = require("./controllers/department_controller.js");
+
 var express = require("express"),
 	http = require("http"),
 	// импортируем библиотеку mongoose
@@ -40,7 +42,7 @@ app.get("/users/:login", employeeController.show);
 //app.put("/users/:username", usersController.update);
 //app.delete("/users/:username", usersController.destroy);
 
-//app.get("/users/:username/todos.json", toDosController.index);
+app.get("/users/:login/departments.json", departmentController.index);
 //app.post("/users/:username/todos", toDosController.create);
 //app.put("/users/:username/todos/:id", toDosController.update);
 //app.delete("/users/:username/todos/:id", toDosController.destroy);
